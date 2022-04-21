@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/survey.css">
     <title>Survey Form</title>
+  
 </head>
 <body>
     <h1>Survey</h1>
-    <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+    <form class="survey-form" action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
         <fieldset>
             <legend>Your Information</legend>
             <div>
@@ -45,7 +47,7 @@
            
         </fieldset>
         <div>
-            <input type="submit" name="submit" value="submit">
+            <input type="submit" name="submit" value="submit" id="submit-btn">
         </div>
     </form>
 </body>
